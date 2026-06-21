@@ -34,25 +34,25 @@ h1 {
 }
 
 .card-img {
-  max-width: 290px;
-  margin: 0 auto;
+  
+  margin: 0 ;
   margin-bottom: 30px;
 }
 
-.card-img img {
+img {
   width: 100%;
 }
 
 .card-subtitle {
   font-size: 12px;
   color: rgba(165, 163, 185, 1);
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .card-title {
   font-weight: 700;
   font-size: 20px;
-  margin-bottom: 7px;
+  margin-bottom: 5px;
 } 
 
 .card-descr {
@@ -63,18 +63,23 @@ h1 {
 
 .card-compound-text {
   font-size: 13px;
-  margin-bottom: 5px;
-  line-height: 10px;
+  margin-bottom:  5px; 
 }
 
 .card-compound-item {
   font-size: 13px;
   margin-bottom: 5px;
 }
+.card-compound-list {
+  margin: 0;
+  padding-left: 15px;
+  list-style-type: circle;
+}
 
 .card-price-wrapper {
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between; 
+  padding-top: 25px; 
 } 
 
 .card-price-text {
