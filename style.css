@@ -32,7 +32,7 @@ h1 {
   margin-bottom: 110px;
 }
 
-.card {
+.card_product {
   width: 340px;
   background-color: rgba(247, 247, 250, 1);
   color: rgba(81, 80, 118, 1);
@@ -60,13 +60,14 @@ img {
   margin-bottom: 5px;
 }
 
-.card-descr {
+.card_features,
+.card_structure {
   font-size: 13px;
   line-height: 18px;
   margin-bottom: 15px;
 }
 
-.card-compound-text {
+.structure.name {
   font-size: 13px;
   margin-bottom: 5px;
 }
@@ -76,28 +77,28 @@ img {
   margin-bottom: 5px;
 }
 
-.card-compound-list {
+.structure.list {
   margin: 0;
   padding-left: 15px;
   list-style-type: circle;
 }
 
-.card-price-wrapper {
+.card-price {
   display: flex;
   justify-content: space-between;
   padding-top: 25px;
 }
 
-.card-price-text {
+.cost {
   font-weight: 700;
   font-size: 20px;
 }
 
-.card-price {
+.price {
   font-size: 20px;
 }
 
-.product-cards {
+.conteiner {
   display: flex;
   flex-wrap: wrap;
   gap: 45px;
