@@ -32,14 +32,14 @@ h1 {
   margin-bottom: 110px;
 }
 
-.card_product {
+.card {
   width: 340px;
   background-color: rgba(247, 247, 250, 1);
   color: rgba(81, 80, 118, 1);
   padding: 25px;
 }
 
-.card-img {
+.card_img {
   margin: 0;
   margin-bottom: 30px;
 }
@@ -48,57 +48,56 @@ img {
   width: 100%;
 }
 
-.card-subtitle {
+.card_subtitle {
   font-size: 12px;
   color: rgba(165, 163, 185, 1);
   margin-bottom: 5px;
 }
 
-.card-title {
+.card_title {
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 5px;
 }
 
-.card_features,
-.card_structure {
+.card_descr {
   font-size: 13px;
   line-height: 18px;
   margin-bottom: 15px;
 }
 
-.structure.name {
+.card_compound_text {
   font-size: 13px;
   margin-bottom: 5px;
 }
 
-.card-compound-item {
+.card_compound_item {
   font-size: 13px;
   margin-bottom: 5px;
 }
 
-.structure.list {
+.card_compound_list {
   margin: 0;
   padding-left: 15px;
   list-style-type: circle;
 }
 
-.card-price {
+.card_price_wrapper {
   display: flex;
   justify-content: space-between;
   padding-top: 25px;
 }
 
-.cost {
+.card_price_text {
   font-weight: 700;
   font-size: 20px;
 }
 
-.price {
+.card_price {
   font-size: 20px;
 }
 
-.conteiner {
+.product_cards {
   display: flex;
   flex-wrap: wrap;
   gap: 45px;
