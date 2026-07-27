@@ -2,8 +2,8 @@
 
 const productCards = document.querySelectorAll('.card');
 const changeColorAllCardButton = document.querySelector('#change-color-all-card');
-const greenColorHash = '#a6ff00';
-const blueColorHash = '#ff6f00';
+const greenColorHash = '#00FF00';
+const blueColorHash = '#0000FF';
 
 changeColorAllCardButton.addEventListener('click', () => {
   productCards.forEach((card) => card.style.backgroundColor = greenColorHash)
@@ -32,5 +32,11 @@ function openGoogle() {
   } else {
     return
   }
-
+}
+//Вывод сообщения в консоль лог
+const outputLogButton = document.querySelector('#output-console-log');
+outputLogButton.addEventListener('click', () => outputConsoleLog('ДЗ №6'))
+function outputConsoleLog(message) {
+  console.log('message')
+  alert('20')
 }
