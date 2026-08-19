@@ -22,11 +22,11 @@ const car = {
   transmission: 'automatic',
 }
 
-console.log(car)
+car.carOwner = user;
 
 //task 5
 
-function reachMaxSpeed(car) {
+function addMaxSpeed(car) {
   if (car.hasOwnProperty("maxSpeed"))
     return;
 
@@ -136,14 +136,19 @@ console.log(allBooks);
 
 //task 10
 
-function addIsRare(allbooks) {
-  allbooks.map(book => {
+function addIsRare(allBooks) {
+  const result = allbooks.map(book => {
     if (book.year > 1820) {
       book.isRare = true;
     } else {
       book.isRare = false;
     }
+    return book;
   });
+  return result;
 }
+
+
+
 
 
